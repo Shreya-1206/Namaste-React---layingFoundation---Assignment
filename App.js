@@ -13,10 +13,13 @@ const withJSX = (
     </div>
 );
 
+const CompositionComponent = () => <h1>Namaste</h1>;
+
 const withFunctionComponent = () => {
     return (
         <div>
-         <h1>Namaste</h1>
+            {CompositionComponent()}
+         {/* <h1>Namaste</h1> */}
          <h1>React</h1>
          <h1>❤️</h1>
         </div>
